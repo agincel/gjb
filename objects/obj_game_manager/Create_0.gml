@@ -3,3 +3,8 @@
 
 canProject = true; //todo
 lastCheckpoint = noone;
+
+startX = 0;
+startY = 0;
+
+alarm[0] = 1;

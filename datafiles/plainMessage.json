@@ -1,0 +1,56 @@
+[
+	{
+		"type": "plain",
+		"endScript": "-1",
+		"endFile": "-1",
+	},
+	{
+		"name": "Joe",
+		"portraitType": "left",
+		"portrait": "port_example",
+		"text": "1440 is the name of a 24/7 convenience store in a Californian town roughly 10 miles east of an important west coast city.",
+		"textWait": "2"
+	},
+	{
+		"name": "Joe",
+		"portraitType": "right",
+		"portrait": "port_example",
+		"text": "The day is split into four shifts:^7 morning,^5 afternoon,^5 evening,^5 and late-night.^9 Throughout the days the TV in the store will report on mounting tensions with a foreign power.",
+		"textWait": "2"
+	},
+	{
+		"name": "Joe",
+		"portraitType": "right",
+		"portrait": "port_example",
+		"text": "Popular opinion will simply be that these are nothing but idle threats,^5 as they have happened previously.^9 The populace is not particularly worried.",
+		"textWait": "2"
+	},
+	{
+		"name": "Joe",
+		"portraitType": "left",
+		"portrait": "port_example",
+		"text": "A day into the game,^5 a nuclear weapon will be detonated on the west coast.^9 Fortunately,^5 the store was far enough away from the epicenter and is not directly in the fallout cloud's projected path,^5 so the family is not in direct imminent danger.",
+		"textWait": "2"
+	},
+	{
+		"name": "Joe",
+		"portraitType": "left",
+		"portrait": "port_example",
+		"text": "Out of shock,^5 horror,^5 and fear,^5 the family decides to close the store and shelter in place,^5 as directed by the radio.^9 The game skips to the next morning,^5 when the store is visited by a member of the National Guard.",
+		"textWait": "2"
+	},
+	{
+		"name": "Joe",
+		"portraitType": "left",
+		"portrait": "port_example",
+		"text": "This person informs the family that a state of emergency is in effect.^9 They know that the store recently got a large shipment in of necessities like water,^5 and tells them about rations they are enforcing.",
+		"textWait": "2"
+	},
+	{
+		"name": "Joe",
+		"portraitType": "left",
+		"portrait": "port_example",
+		"text": "The store is then reopened,^5 information about the catastrophe is communicated through survivors at the store,^5 the national guard member,^5 the news,^5 and through gameplay.",
+		"textWait": "2"
+	}
+]

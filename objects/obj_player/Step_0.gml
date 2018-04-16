@@ -49,7 +49,7 @@ if (!aiming && !wasAiming) {
 		if (!place_meeting(x + sign(deltaX), y, obj_wall)) {
 			x += sign(deltaX);
 		} else {
-			break;	
+			break;
 		}
 	}
 

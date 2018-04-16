@@ -5,6 +5,6 @@ startY = y;
 startPoint = noone;
 
 dir = 0;
-spd = 10;
-dst = 180;
+spd = 7;
+dst = 96;
 dst_current = 0;

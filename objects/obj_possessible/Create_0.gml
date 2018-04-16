@@ -4,7 +4,7 @@ aiming = false;
 wasAiming = false;
 
 isPossessed = false;
-range = 180;
+range = 96;
 
 canAim = true; //allowed to soul project out of this object?
 canJump = true; //allowed to jump out of this object?

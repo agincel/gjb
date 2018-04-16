@@ -11,7 +11,7 @@ for (var i = 0; i < spd; i++) {
 		y += lengthdir_y(1, dir);
 	} else if (collisionWall) {
 		//gonna hit a wall, destroy self and put a player there
-		
+		show_debug_message(collisionWall);
 		var p = instance_create_depth(x, y, 0, obj_player);
 		p.yVelocity = p.jumpStrength;
 		instance_destroy();
