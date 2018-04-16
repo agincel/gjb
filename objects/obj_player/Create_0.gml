@@ -3,7 +3,7 @@
 grav = 0.5;
 movementSpeed = 3;
 
-jumpStrength = -7;
+jumpStrength = -8;
 
 maxJumps = 2;
 jumps = maxJumps;
@@ -19,6 +19,8 @@ wasAiming = false;
 range = 96;
 percentNeeded = 0.66;
 
+xAxis = 0;
+yAxis = 0;
 xAimAxis = 0;
 yAimAxis = 0;
 
@@ -38,3 +40,6 @@ spark2.originator = id;
 
 line_step = 0;
 line_len = 16;
+
+current_sprite = spr_player_idle;
+current_subimg = 0;

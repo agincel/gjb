@@ -5,6 +5,6 @@ with (other) {
 }
 
 with (obj_camera) {
-			aberration = 1;
-			chromatic_shake = 4;
-		}
+	aberration = 2;
+	chromatic_shake = 4;
+}

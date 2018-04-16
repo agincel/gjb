@@ -79,4 +79,17 @@ if (aiming) {
 	}
 }
 
-draw_self();
+//draw_self();
+
+var xDir = xAimAxis == 0 ? 1 : sign(xAimAxis);
+if (aiming) {
+	for (var i = 0; i < 4; i++) {
+		draw_sprite_ext(current_sprite, current_subimg,
+						x + lengthdir_x(1, i*90),
+						y + lengthdir_y(1, i*90), xDir, 1,
+						image_angle, c_black, image_alpha);
+	}
+}
+draw_sprite_ext(current_sprite, current_subimg,
+				x, y, xDir, 1,
+				image_angle, image_blend, image_alpha);

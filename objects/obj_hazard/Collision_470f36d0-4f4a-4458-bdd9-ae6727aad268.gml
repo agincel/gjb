@@ -5,7 +5,7 @@ if (instance_exists(obj_game_manager)) {
 	var checkpoint = obj_game_manager.lastCheckpoint;
 	if (checkpoint != noone) {
 		other.x = checkpoint.x;
-		other.y = checkpoint.y; //todo, more detailed death stuff?
+		other.y = checkpoint.y - 1; //todo, more detailed death stuff?
 	} else {
 		other.x = obj_game_manager.startX;
 		other.y = obj_game_manager.startY;

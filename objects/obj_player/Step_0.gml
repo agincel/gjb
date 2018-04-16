@@ -58,12 +58,11 @@ if (!aiming && !wasAiming) {
 		}
 	}
 
-	for (var i = 0; i < abs(yVelocity); i++) {
+	for (var i = 0; i < abs(floor(yVelocity)); i++) {
 		if (!place_meeting(x, y + sign(yVelocity), obj_wall)) {
 			y += sign(yVelocity);	
 		} else {
 			if (yVelocity < 0) {
-				//yVelocity = floor(yVelocity / 2);	
 				yVelocity = 0;
 			}
 			break;
@@ -154,18 +153,6 @@ if (!aiming && !wasAiming) {
 		}
 		
 	}
-	
-	/*
-	//destroy self, send out an obj_soul
-	var soul = instance_create_layer(x, y, layer, obj_soul); //soul is same dimensions as player, with same centering, to prevent clipping
-	soul.dir = point_direction(x, y, x + xAimAxis, y + yAimAxis);
-	canAim = false;
-	with (obj_camera) {
-		aberration = 1;
-		chromatic_shake = 2;
-	}
-	instance_destroy(); //destroy self
-	*/
 }
 
 wasAiming = aiming;
@@ -179,3 +166,5 @@ if (aiming) {
 } else {
 	radiusDraw += (0 - radiusDraw) / 12.5;
 }
+
+y = floor(y);

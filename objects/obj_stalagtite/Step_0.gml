@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+image_index = isPossessed;
+
 if (isPossessed) {
 	var xAxis = gamepad_axis_value(0, gp_axislh);
 
