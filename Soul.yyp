@@ -98,7 +98,7 @@
             "Key": "46f6b483-a28a-4bd7-9cfd-f07226d50d52",
             "Value": {
                 "id": "2c0d7ee2-a1ea-4f01-95f9-839c7c44aa6d",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rmTutorial\\rmTutorial.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -124,6 +124,22 @@
                 "id": "c349508a-561a-4afb-ae63-480714c36149",
                 "resourcePath": "views\\501c5c3a-ff36-4d78-9050-21d7d5ef8bf1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "62a518bc-f066-440a-98a8-f2df450e9d3e",
+            "Value": {
+                "id": "7c2559a1-3144-412b-b13d-ead8fb07ae00",
+                "resourcePath": "objects\\obj_afterlife_background_effect\\obj_afterlife_background_effect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "65aa7e1f-f523-46e7-90d3-8bde03ed63d3",
+            "Value": {
+                "id": "545cdaaf-1b33-44e0-8572-8b282f400582",
+                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -204,6 +220,14 @@
                 "id": "912867b7-43c5-432b-aaa8-c430b92629bd",
                 "resourcePath": "objects\\obj_possessible\\obj_possessible.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "998ee190-5c1a-4851-a9e5-7109976c442b",
+            "Value": {
+                "id": "61e6d389-af10-48bf-87d4-7f0e84b4e173",
+                "resourcePath": "rooms\\rmInit\\rmInit.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

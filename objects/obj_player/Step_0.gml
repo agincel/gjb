@@ -1,8 +1,8 @@
-
+gamepad_set_axis_deadzone(0, 0.15);
 
 xAxis = gamepad_axis_value(0, gp_axislh);
 yAxis = gamepad_axis_value(0, gp_axislv);
-isGrounded = place_meeting(x, bbox_bottom + 1, obj_wall);
+isGrounded = place_meeting(x, y + 1, obj_wall);
 aiming = gamepad_button_check(0, gp_shoulderrb) && canAim;
 
 if (instance_exists(obj_game_manager)) {
@@ -36,6 +36,11 @@ if (pressedJump && jumps > 0 && !aiming) { //pressed jump and can jump
 	jumps -= 1;
 }
 
+if (gamepad_button_check_released(0, gp_face1)) {
+	if (yVelocity < 0) {
+		yVelocity /= 2;
+	}
+}
 
 deltaX = xAxis * movementSpeed;
 
@@ -53,7 +58,8 @@ if (!aiming && !wasAiming) {
 			y += sign(yVelocity);	
 		} else {
 			if (yVelocity < 0) {
-				yVelocity = floor(yVelocity / 2);	
+				//yVelocity = floor(yVelocity / 2);	
+				yVelocity = 0;
 			}
 			break;
 		}
