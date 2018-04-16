@@ -69,7 +69,7 @@ if (!aiming && !wasAiming) {
 			break;
 		}
 	}
-} else if (!aiming && wasAiming && canAim)  { //released aim this frame
+} else if (!aiming && wasAiming && canAim && radiusDraw > (range * percentNeeded))  { //released aim this frame
 	
 	canAim = false;
 	
@@ -129,6 +129,7 @@ if (!aiming && !wasAiming) {
 		}
 		move_contact_solid(dir, range);
 		yVelocity = jumpStrength;
+		jumps = 1;
 		
 		var boltDir = point_direction(cX, cY, xx, yy);
 		var boltDist = point_distance(cX, cY, xx, yy);

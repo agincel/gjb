@@ -20,7 +20,7 @@ if (isPossessed) {
 	var yy = cY;
 	var dir = point_direction(cX, cY, cX + xAimAxis, cY + yAimAxis);
 	
-	if (!aiming && wasAiming) {
+	if (!aiming && wasAiming && radiusDraw > range * percentNeeded) {
 		
 		var i = 0;
 		while (i < range && !collision_line(cX, cY, xx, yy, obj_wall, true, true)

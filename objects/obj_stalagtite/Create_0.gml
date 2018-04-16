@@ -10,7 +10,7 @@ canJump = false;
 didLeft = false;
 didRight = false;
 
-counter = 5;
+counter = 8;
 isShaking = 0;
 shakeTime = 15;
 
@@ -18,5 +18,7 @@ maxYVelocity = 7;
 yVelocity = 0;
 grav = 0.25;
 
-shakeIntensity = 0.75;
+shakeIntensity = 1;
 shakeIntensityDelta = 0.25; //goes up by this much each shake
+
+done = false;

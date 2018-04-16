@@ -311,6 +311,22 @@
             }
         },
         {
+            "Key": "92dfcb72-8156-42c8-ab43-015471a08d74",
+            "Value": {
+                "id": "e1b91f93-6bea-498b-8eae-d69e276513cc",
+                "resourcePath": "sprites\\spr_wall_breakable\\spr_wall_breakable.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9374a5e8-8c11-4676-9398-9c494cedc8bb",
+            "Value": {
+                "id": "c8453b52-ec17-4437-91ad-c67661e6f7bb",
+                "resourcePath": "objects\\obj_breakable_floor\\obj_breakable_floor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "951377a2-99ed-4908-8fe1-e7eaf3ea2f4a",
             "Value": {
                 "id": "912867b7-43c5-432b-aaa8-c430b92629bd",

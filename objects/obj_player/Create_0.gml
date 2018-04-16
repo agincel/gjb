@@ -17,6 +17,7 @@ maxYVelocity = 10;
 aiming = false;
 wasAiming = false;
 range = 96;
+percentNeeded = 0.66;
 
 xAimAxis = 0;
 yAimAxis = 0;

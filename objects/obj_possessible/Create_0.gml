@@ -5,6 +5,7 @@ wasAiming = false;
 
 isPossessed = false;
 range = 96;
+percentNeeded = 0.66;
 
 xAimAxis = 0;
 yAimAxis = 0;

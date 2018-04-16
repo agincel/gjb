@@ -28,14 +28,13 @@ if (isPossessed) {
 		isShaking -= 1;	
 	}
 
-	if (counter <= 0) { //become affected by gravity
+	if (counter <= 0 && !done) { //become affected by gravity
 		yVelocity += grav;
 		if (yVelocity > maxYVelocity) {
 			yVelcoity = maxYVelocity;	
 		}
 	
 		y += yVelocity; //todo
-		canJump = true; //debug
 	}
 
 }

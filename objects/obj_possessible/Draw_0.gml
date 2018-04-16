@@ -41,7 +41,7 @@ if (aiming && isPossessed) {
 	}
 		
 	var draw_i = 0;
-	while (draw_i < i - line_step && draw_i < range) {
+	while (draw_i < i - line_step && draw_i < range && radiusDraw > range * percentNeeded) {
 		
 		draw_line_width(cX - 1,
 						cY - 1,
