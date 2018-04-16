@@ -6,8 +6,8 @@ if (isPossessed) {
 	xAxis = gamepad_axis_value(0, gp_axislh);
 	yAxis = gamepad_axis_value(0, gp_axislv);
 
-	aiming = gamepad_button_check(0, gp_shoulderrb);
-	pressedJump = gamepad_button_check_pressed(0, gp_face1);
+	aiming = gamepad_button_check(0, gp_shoulderrb) && canAim;
+	pressedJump = gamepad_button_check_pressed(0, gp_face1) && canJump;
 
 	if (!aiming && wasAiming) {
 		//released aiming
@@ -18,7 +18,7 @@ if (isPossessed) {
 		isPossessed = false;
 	}
 	
-	if (pressedJump) {
+	if (pressedJump && canJump) {
 		isPossessed = false;
 		var p = instance_create_depth(x, y, 0, obj_player);
 		p.yVelocity = p.jumpStrength;

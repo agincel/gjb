@@ -1,8 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
-aiming = false;
-wasAiming = false;
+/// @description 
 
-isPossessed = false;
+// Inherit the parent event
+event_inherited();
 
-range = 180;
+canAim = true;
+canJump = true;

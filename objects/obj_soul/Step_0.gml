@@ -4,7 +4,7 @@
 
 for (var i = 0; i < spd; i++) {
 	var collisionWall = instance_place(x + lengthdir_x(1, dir), y + lengthdir_y(1, dir), obj_wall);
-	var collisionPoint = instance_place(x + lengthdir_x(1, dir), y + lengthdir_y(1, dir), obj_point);	
+	var collisionPoint = instance_place(x + lengthdir_x(1, dir), y + lengthdir_y(1, dir), obj_possessible);	
 	
 	if (!collisionWall && !(collisionPoint && collisionPoint != startPoint)) {
 		x += lengthdir_x(1, dir);

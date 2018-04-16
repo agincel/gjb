@@ -4,6 +4,11 @@ xAxis = gamepad_axis_value(0, gp_axislh);
 yAxis = gamepad_axis_value(0, gp_axislv);
 isGrounded = place_meeting(x, bbox_bottom + 1, obj_wall);
 aiming = gamepad_button_check(0, gp_shoulderrb) && canAim;
+
+if (instance_exists(obj_game_manager)) {
+	aiming = aiming && obj_game_manager.canProject;	
+}
+
 pressedJump = gamepad_button_check_pressed(0, gp_face1);
 
 if (gamepad_button_check_pressed(0, gp_face2)) {
