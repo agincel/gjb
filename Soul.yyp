@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "031cbea7-be16-4798-addf-c680d2326d1c",
+            "Value": {
+                "id": "5cfc297b-666e-4393-b8ce-f9fe7abb7971",
+                "resourcePath": "scripts\\axisLH\\axisLH.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "070a1d3a-3b64-4c68-962d-b78248f7d1e1",
             "Value": {
                 "id": "7d80e9a1-f207-4982-9b7c-aae2e0227b20",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "7d1a897e-838c-46fd-a91c-16a598e0e427",
+            "Value": {
+                "id": "01c71575-11ee-4fa6-b458-5ba8666fe598",
+                "resourcePath": "scripts\\axisLV\\axisLV.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "8ec37060-f4fc-4c1e-982a-a3698fb2618f",
@@ -423,6 +439,14 @@
             }
         },
         {
+            "Key": "b6cb17dd-cfee-43c3-87f6-ef1ff0d282ae",
+            "Value": {
+                "id": "d3793903-b1ce-40e1-b9de-b2b96a850f30",
+                "resourcePath": "scripts\\pressJump\\pressJump.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b85e652b-3db5-4bbf-8817-dc4d5ada8245",
             "Value": {
                 "id": "bbf57677-78e5-43f1-827f-265fe596af53",
@@ -436,6 +460,14 @@
                 "id": "963cb398-b9ee-410b-958b-3f34d3e635a0",
                 "resourcePath": "objects\\obj_textbox\\obj_textbox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c7d9c473-056c-4c4d-9d43-de67293099d6",
+            "Value": {
+                "id": "0b0e8dff-a514-4635-aaf5-2e11947845f0",
+                "resourcePath": "scripts\\pressingAim\\pressingAim.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -586,7 +618,11 @@
     "script_order": [
         "fbc4bfa8-23e3-4c98-a318-9892b158647e",
         "316d1915-a01b-486a-a7e7-dc14b3618f4f",
-        "8cd8fbfd-0792-4134-90a3-e06a23c08b13"
+        "8cd8fbfd-0792-4134-90a3-e06a23c08b13",
+        "031cbea7-be16-4798-addf-c680d2326d1c",
+        "7d1a897e-838c-46fd-a91c-16a598e0e427",
+        "b6cb17dd-cfee-43c3-87f6-ef1ff0d282ae",
+        "c7d9c473-056c-4c4d-9d43-de67293099d6"
     ],
     "tutorial": ""
 }

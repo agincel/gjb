@@ -1,20 +1,20 @@
 gamepad_set_axis_deadzone(0, 0.15);
 
-xAxis = gamepad_axis_value(0, gp_axislh);
-yAxis = gamepad_axis_value(0, gp_axislv);
+xAxis = axisLH();
+yAxis = axisLV();
 isGrounded = place_meeting(x, y + 1, obj_wall);
-aiming = gamepad_button_check(0, gp_shoulderrb) && canAim;
+aiming = pressingAim() && canAim;
 
-if (xAxis != 0)
+//if (xAxis != 0) //wasn't able to aim pure horizontal or vertical which felt bad, doesn't seem to break anything
 	xAimAxis = xAxis;
-if (yAxis != 0)
+//if (yAxis != 0)
 	yAimAxis = yAxis;
 
 if (instance_exists(obj_game_manager)) {
 	aiming = aiming && obj_game_manager.canProject;	
 }
 
-pressedJump = gamepad_button_check_pressed(0, gp_face1);
+pressedJump = pressJump();
 
 if (gamepad_button_check_pressed(0, gp_face2)) {
 	room_restart();	

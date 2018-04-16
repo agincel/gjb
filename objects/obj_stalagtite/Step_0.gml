@@ -7,7 +7,7 @@ event_inherited();
 image_index = isPossessed;
 
 if (isPossessed) {
-	var xAxis = gamepad_axis_value(0, gp_axislh);
+	var xAxis = axisLH();
 
 	if (xAxis <= -0.9 && !didLeft && counter > 0) {
 		didLeft = true;

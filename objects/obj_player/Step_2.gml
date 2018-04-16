@@ -44,3 +44,8 @@ if (aiming) {
 		}
 	}
 }
+
+if (x > xprevious)
+	xDir = 1;
+else if (x < xprevious)
+	xDir = -1;

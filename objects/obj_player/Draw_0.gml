@@ -81,7 +81,7 @@ if (aiming) {
 
 //draw_self();
 
-var xDir = xAimAxis == 0 ? 1 : sign(xAimAxis);
+//var xDir = xAimAxis == 0 ? 1 : sign(xAimAxis); //now define in end step
 if (aiming) {
 	for (var i = 0; i < 4; i++) {
 		draw_sprite_ext(current_sprite, current_subimg,

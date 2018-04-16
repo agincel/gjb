@@ -1,0 +1,1 @@
+return gamepad_button_check(0, gp_shoulderrb) + keyboard_check(vk_shift);

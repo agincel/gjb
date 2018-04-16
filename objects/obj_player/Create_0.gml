@@ -23,6 +23,7 @@ xAxis = 0;
 yAxis = 0;
 xAimAxis = 0;
 yAimAxis = 0;
+xDir = 1;
 
 canAim = false;
 

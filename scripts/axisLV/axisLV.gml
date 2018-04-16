@@ -1,0 +1,1 @@
+return clamp(gamepad_axis_value(0, gp_axislv) + (keyboard_check(vk_down) - keyboard_check(vk_up)), -1, 1);

@@ -3,16 +3,16 @@
 
 
 if (isPossessed) {
-	xAxis = gamepad_axis_value(0, gp_axislh);
-	yAxis = gamepad_axis_value(0, gp_axislv);
+	xAxis = axisLH();
+	yAxis = axisLV();
 	
-	if (xAxis != 0)
+	//if (xAxis != 0)
 		xAimAxis = xAxis;
-	if (yAxis != 0)
+	//if (yAxis != 0)
 		yAimAxis = yAxis;
 
-	aiming = gamepad_button_check(0, gp_shoulderrb) && canAim;
-	pressedJump = gamepad_button_check_pressed(0, gp_face1) && canJump;
+	aiming = pressingAim() && canAim;
+	pressedJump = pressJump() && canJump;
 	
 	var cX = x;
 	var cY = y;
