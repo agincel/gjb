@@ -12,7 +12,7 @@ for (var i = 0; i < spd; i++) {
 	} else if (collisionWall) {
 		//gonna hit a wall, destroy self and put a player there
 		show_debug_message(collisionWall);
-		var p = instance_create_depth(x, y, 0, obj_player);
+		var p = instance_create_layer(x, y, layer, obj_player);
 		p.yVelocity = p.jumpStrength;
 		instance_destroy();
 		dst_current = 0;
@@ -32,7 +32,7 @@ if (dst_current > dst) { //we went farther than we were supposed to, just create
 		startPoint.isPossessed = true;
 		instance_destroy();
 	} else {
-		instance_create_depth(startX, startY, 0, obj_player);
+		instance_create_layer(startX, startY, layer, obj_player);
 		instance_destroy();	
 	}
 }

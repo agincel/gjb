@@ -5,7 +5,7 @@ p_system = part_system_create();
 part_system_layer(p_system, layer_get_id("Effect"));
 
 p_back = part_type_create();
-part_type_shape(p_back,pt_shape_ring);
+part_type_shape(p_back, pt_shape_circle);
 part_type_size(p_back,0.15, 0.45, 0, 0.01);
 part_type_color1(p_back, c_dkgray);
 part_type_alpha3(p_back, 0.15, 1, 0);
