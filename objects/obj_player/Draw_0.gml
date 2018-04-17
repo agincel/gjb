@@ -34,10 +34,10 @@ if (aiming) {
 		
 	}
 	
-	draw_set_color(c_gray);
+	draw_set_color(c_ltgray);
 	if (collision_line(cX, cY, xx, yy, obj_wall, true, true)
 	 || collision_line(cX, cY, xx, yy, obj_possessible, true, true)) {
-		draw_set_color(c_red);	 
+		draw_set_color(c_purple);	 
 	}
 		
 	var draw_i = 0;

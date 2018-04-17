@@ -13,6 +13,9 @@ yAimAxis = 0;
 canAim = true; //allowed to soul project out of this object?
 canJump = true; //allowed to jump out of this object?
 
+
+overwriteDrawSelf = false;
+
 radiusDraw = 0;
 draw_border = false;
 line_step = 0;

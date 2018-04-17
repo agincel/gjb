@@ -5,6 +5,20 @@ if (instance_exists(obj_player)) {
 	camera_set_view_pos(my_camera,
 						480 * floor(obj_player.x / 480),
 						256 * floor(obj_player.y / 256));
+} else if (instance_exists(obj_possessible)) {
+	//check to see if an object is possessed
+	var possessed = noone;
+	with (obj_possessible) {
+		if (isPossessed) {
+			possessed = id;	
+		}
+	}
+	
+	if (possessed != noone) {
+			camera_set_view_pos(my_camera,
+						480 * floor(possessed.x / 480),
+						256 * floor(possessed.y / 256));
+	}
 }
 
 if (aberration > 0) {

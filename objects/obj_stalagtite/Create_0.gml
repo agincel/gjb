@@ -21,6 +21,8 @@ maxYVelocity = 7;
 yVelocity = 0;
 grav = 0.25;
 
+overwriteDrawSelf = true;
+
 shakeIntensity = 1;
 shakeIntensityDelta = 0.25; //goes up by this much each shake
 

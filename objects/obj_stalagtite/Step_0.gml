@@ -39,4 +39,6 @@ if (isPossessed) {
 		y += yVelocity; //todo
 	}
 
+} else {
+	isShaking = 0;	
 }
