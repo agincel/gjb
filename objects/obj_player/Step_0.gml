@@ -49,6 +49,21 @@ if (gamepad_button_check_released(0, gp_face1)) {
 
 deltaX = xAxis * movementSpeed;
 
+//audio stuff
+if (aiming && !wasAiming) {
+	with (obj_audio_manager) {
+		startedAiming = true;	
+	}
+}
+
+if (!aiming && wasAiming) {
+	with (obj_audio_manager) {
+		stoppedAiming = true;	
+	}
+}
+
+
+
 if (!aiming && !wasAiming) {
 	for (var i = 0; i < abs(deltaX + xVelocity); i++) {
 		if (!place_meeting(x + sign(deltaX), y, obj_wall)) {
@@ -96,6 +111,9 @@ if (!aiming && !wasAiming) {
 			aberration = 1;
 			chromatic_shake = 2;
 		}
+		with (obj_audio_manager) {
+			impactPossessible = true;	
+		}
 		
 		var boltDir = point_direction(cX, cY, xx, yy);
 		var boltDist = point_distance(cX, cY, xx, yy);
@@ -126,6 +144,9 @@ if (!aiming && !wasAiming) {
 			aberration = 1;
 			chromatic_shake = 2;
 		}
+		with (obj_audio_manager) {
+			impactWall = true;	
+		}
 		move_contact_solid(dir, range);
 		yVelocity = jumpStrength;
 		jumps = 1;
@@ -152,6 +173,10 @@ if (!aiming && !wasAiming) {
 			}
 		}
 		
+	} else {
+		with (obj_audio_manager) {
+			impactNothing = true;	
+		}
 	}
 }
 

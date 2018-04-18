@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1a696422-4d8a-463f-9786-0bad95cf008e",
+            "Value": {
+                "id": "8fbd5c96-e052-46de-bcd3-af0cdffdbf94",
+                "resourcePath": "sounds\\snd_bgm_preview\\snd_bgm_preview.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1b33d71c-be46-4f93-a0ec-14ac66ccfd3c",
             "Value": {
                 "id": "fe61735b-3052-4ad6-b867-7512cbf3d94e",
@@ -127,6 +135,14 @@
             }
         },
         {
+            "Key": "219b4b7b-5ca6-4f2e-a255-397329e6a1f5",
+            "Value": {
+                "id": "5a75720f-39eb-47ea-ad5e-47ad1e27585d",
+                "resourcePath": "sounds\\snd_soul_aim_start_possessed\\snd_soul_aim_start_possessed.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "25b98c2f-7248-424a-abc6-1a43284a4b73",
             "Value": {
                 "id": "c3f3f95e-d432-4630-a125-58c90efd060a",
@@ -140,6 +156,14 @@
                 "id": "330bafb7-10c8-4065-ae12-1cd15f4a8d15",
                 "resourcePath": "objects\\obj_game_manager\\obj_game_manager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2e25c27f-0cd1-4c7c-b4b5-56e9b7138164",
+            "Value": {
+                "id": "13104bb7-23cd-4a78-988d-ea5e381a1ec2",
+                "resourcePath": "sounds\\snd_soul_aim_loop\\snd_soul_aim_loop.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -180,6 +204,14 @@
                 "id": "2de4a07f-859c-4d56-9cbb-7b5705cd99c8",
                 "resourcePath": "datafiles_yy\\plainMessage.json.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "446b79a3-f362-4ff6-80e8-eba9345a1329",
+            "Value": {
+                "id": "e395f1e6-9e42-4ea8-a4de-22f54d7d004b",
+                "resourcePath": "sounds\\snd_soul_impact2\\snd_soul_impact2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -284,6 +316,14 @@
                 "id": "545cdaaf-1b33-44e0-8572-8b282f400582",
                 "resourcePath": "objects\\obj_camera\\obj_camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "682e7410-1b2e-4e58-87c5-3f6f4b785df4",
+            "Value": {
+                "id": "929612ab-9706-4555-a880-7bf355b8e94a",
+                "resourcePath": "sounds\\snd_soul_aim_start\\snd_soul_aim_start.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -415,6 +455,14 @@
             }
         },
         {
+            "Key": "98f5dc3c-c3fb-44fc-bfe4-69175e9c4d0b",
+            "Value": {
+                "id": "2b05bb77-da6a-4129-8723-e97d763a3ce9",
+                "resourcePath": "sounds\\snd_soul_aim_loop_possessed\\snd_soul_aim_loop_possessed.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "998ee190-5c1a-4851-a9e5-7109976c442b",
             "Value": {
                 "id": "61e6d389-af10-48bf-87d4-7f0e84b4e173",
@@ -463,6 +511,14 @@
             }
         },
         {
+            "Key": "b0150d31-5318-4a3c-917e-78d0a2544c21",
+            "Value": {
+                "id": "5a88c3c5-96d7-434f-bc40-afeb2cf73826",
+                "resourcePath": "objects\\obj_audio_manager\\obj_audio_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b6b6439d-4690-4d91-90d1-89b5f51deb6a",
             "Value": {
                 "id": "8ee49078-48a4-453b-a8e9-2356e5eefefe",
@@ -487,6 +543,14 @@
             }
         },
         {
+            "Key": "bbfb8f7c-81f9-4d34-be64-f7ee66f29ab0",
+            "Value": {
+                "id": "e6f698be-01d3-421f-baf5-a766bb8dee38",
+                "resourcePath": "sounds\\snd_soul_impact4\\snd_soul_impact4.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bc02e2d9-fe00-432d-9e74-649c825f9a8e",
             "Value": {
                 "id": "963cb398-b9ee-410b-958b-3f34d3e635a0",
@@ -500,6 +564,14 @@
                 "id": "d6a24b48-f4f0-420b-854a-1e9c21b528d3",
                 "resourcePath": "tilesets\\ts_roomsize\\ts_roomsize.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "bdd069da-e716-4287-9a4e-1316d56a1433",
+            "Value": {
+                "id": "0b282213-c145-433a-a767-8eb4a7fff9b7",
+                "resourcePath": "sounds\\snd_soul_impact3\\snd_soul_impact3.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -524,6 +596,14 @@
                 "id": "8d69543c-fcad-425e-b77e-6e436e2470dc",
                 "resourcePath": "views\\cbd8deba-718a-4ffc-ae94-90778710fd5f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc3b664e-0979-44e7-b7d7-c76c54aaa733",
+            "Value": {
+                "id": "60c11c67-b7d9-4a1b-9899-93aa24eb7e9a",
+                "resourcePath": "sounds\\snd_soul_impact1\\snd_soul_impact1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
