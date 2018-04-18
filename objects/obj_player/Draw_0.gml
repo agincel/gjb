@@ -90,7 +90,7 @@ if (aiming) {
 						image_angle, c_black, image_alpha);
 	}
 } else {
-	gpu_set_fog(true, c_white, 0, 0);
+	gpu_set_fog(true, c_purple, 0, 0);
 	for (var i = 0; i < 4; i++) {
 		draw_sprite_ext(current_sprite, current_subimg,
 						x + lengthdir_x(1, i*90),

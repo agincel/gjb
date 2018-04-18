@@ -1,1 +1,1 @@
-instance_create_layer(112, 206, layer_get_id("PlayerLayer"), obj_player);
+instance_create_layer(112, 206 + 256, layer_get_id("PlayerLayer"), obj_player);

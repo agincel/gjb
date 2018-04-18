@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "5f067f8d-09b6-4084-a9c5-6d0de574f731",
+            "Value": {
+                "id": "99be959a-884a-43e4-a69d-01d73831ba11",
+                "resourcePath": "fonts\\fnt_hud_small\\fnt_hud_small.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "62a518bc-f066-440a-98a8-f2df450e9d3e",
             "Value": {
                 "id": "7c2559a1-3144-412b-b13d-ead8fb07ae00",
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "9e729536-4911-4298-b0f1-64f6847ad9dd",
+            "Value": {
+                "id": "7ce8565b-d5c4-4ae0-955a-b311c385e0d5",
+                "resourcePath": "sprites\\spr_room_size\\spr_room_size.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "ffc304e0-8c62-4eb3-b7d7-2393f72cbcc3",
@@ -476,6 +492,14 @@
                 "id": "963cb398-b9ee-410b-958b-3f34d3e635a0",
                 "resourcePath": "objects\\obj_textbox\\obj_textbox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bd6a11aa-7815-4df8-afa6-4e66656dc3f5",
+            "Value": {
+                "id": "d6a24b48-f4f0-420b-854a-1e9c21b528d3",
+                "resourcePath": "tilesets\\ts_roomsize\\ts_roomsize.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
