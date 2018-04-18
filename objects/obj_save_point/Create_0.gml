@@ -5,3 +5,5 @@ recentlyTouched = true;
 timer = 0;
 
 step = 0;
+
+crystal_subimg = 0;

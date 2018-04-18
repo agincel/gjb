@@ -89,6 +89,15 @@ if (aiming) {
 						y + lengthdir_y(1, i*90), xDir, 1,
 						image_angle, c_black, image_alpha);
 	}
+} else {
+	gpu_set_fog(true, c_white, 0, 0);
+	for (var i = 0; i < 4; i++) {
+		draw_sprite_ext(current_sprite, current_subimg,
+						x + lengthdir_x(1, i*90),
+						y + lengthdir_y(1, i*90), xDir, 1,
+						image_angle, c_red, image_alpha);
+	}
+	gpu_set_fog(false, c_white, 0, 0);
 }
 draw_sprite_ext(current_sprite, current_subimg,
 				x, y, xDir, 1,

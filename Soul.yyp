@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "4a411b31-aaaf-48d3-a63e-5001ab99d4b9",
+            "Value": {
+                "id": "20bcb89a-6a8f-4411-9d24-43670b42b612",
+                "resourcePath": "objects\\obj_distortion_block\\obj_distortion_block.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4b7f5e98-ef1f-429b-8f4f-cb62fc2298a3",
             "Value": {
                 "id": "ad5f256d-a3df-4908-afe8-b8663b8a8d60",

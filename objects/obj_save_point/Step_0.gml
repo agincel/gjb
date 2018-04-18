@@ -10,3 +10,5 @@ if (timer > 0) {
 }
 
 step = (step + 2) % 360;
+
+crystal_subimg = (crystal_subimg + 0.25) % 6;

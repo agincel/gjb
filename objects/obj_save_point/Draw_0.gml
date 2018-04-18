@@ -12,7 +12,7 @@ draw_sprite_ext(spr_save_front, 0, x, y - 20 - 4 * dsin(step),
 				1 + (60 - timer)/20 * 0.25, 1 + (60 - timer)/20 * 0.25,
 				image_angle, c_lime, 1 - (20 / timer));
 
-draw_sprite_ext(spr_save_back, image_index, x, y - 20 - 4 * dsin(step),
+draw_sprite_ext(spr_save_back, crystal_subimg, x, y - 20 - 4 * dsin(step),
 				image_xscale, image_yscale,
 				image_angle, pointColor, 1);
 				
