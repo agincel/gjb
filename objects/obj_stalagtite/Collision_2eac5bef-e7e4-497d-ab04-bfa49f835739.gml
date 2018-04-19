@@ -8,3 +8,7 @@ with (obj_camera) {
 	aberration = 2;
 	chromatic_shake = 4;
 }
+
+with (obj_audio_manager) {
+	impactWall = true;	
+}

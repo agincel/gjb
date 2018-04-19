@@ -17,7 +17,7 @@ if (!instance_exists(obj_distortion_block)) {
 			break;
 	}
 	if (pointer == string_length(message[current_message])) {
-		if (gamepad_button_check_pressed(0, gp_face1)) {
+		if (pressJump()) {
 			if (current_message < 6) {
 				pointer = 0;
 				current_message++;
@@ -30,7 +30,7 @@ if (!instance_exists(obj_distortion_block)) {
 			}
 		}
 	} else {
-		if (gamepad_button_check_pressed(0, gp_face1)) {
+		if (pressJump()) {
 			pointer = string_length(message[current_message]);
 		}
 	}

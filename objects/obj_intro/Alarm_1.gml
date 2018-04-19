@@ -23,4 +23,4 @@ if (distortionFrame) {
 	alarm[1] = 15 / max(1, current_message);
 }
 
-show_debug_message("tick");
+//show_debug_message("tick");

@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "701dac22-6876-48c8-a873-b70f9cf5f3ca",
+            "Value": {
+                "id": "9aa1e0c0-b3e9-4a06-8102-90c7d4dcf2fb",
+                "resourcePath": "objects\\obj_event_trigger\\obj_event_trigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "303f6b89-4c58-4dba-ad57-5a5acdef8b0d",
@@ -711,6 +719,14 @@
             }
         },
         {
+            "Key": "d131343f-87b9-4261-8618-3c56f673b9ec",
+            "Value": {
+                "id": "624dc5fb-f07a-46fd-b7f6-86fb94304ed9",
+                "resourcePath": "sprites\\spr_bridge\\spr_bridge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d1696aa1-22d9-4e47-a99c-b7d470b410b2",
             "Value": {
                 "id": "59aec390-804e-495f-8c74-7801381944ec",
@@ -799,6 +815,14 @@
             }
         },
         {
+            "Key": "f10f1e24-ebe0-42d3-b92a-117943079829",
+            "Value": {
+                "id": "98f4db42-792a-40fc-9293-dabd0dbe6f7d",
+                "resourcePath": "sprites\\spr_waveparadigm_logo\\spr_waveparadigm_logo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f1b26b3e-f842-4f38-bb5f-cb2cd2a5ca63",
             "Value": {
                 "id": "a4d404af-ff52-4213-bdc1-b71d5a276664",
@@ -812,6 +836,14 @@
                 "id": "0bd86b69-ec29-4e4f-b73e-7fcb395cd834",
                 "resourcePath": "views\\f29db482-e0ea-4698-8fb2-538b4f957812.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f30870dd-1b19-4a0b-af69-913552dedee4",
+            "Value": {
+                "id": "b3c38890-d814-4493-908d-0329ff097281",
+                "resourcePath": "objects\\obj_bridge\\obj_bridge.yy",
+                "resourceType": "GMObject"
             }
         },
         {
