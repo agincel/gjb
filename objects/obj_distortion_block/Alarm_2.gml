@@ -18,8 +18,10 @@ if (state == 0) {
 			respawnedPlayer.xVelocity = 0;
 			respawnedPlayer.yVelocity = 0;
 		}
+	} else if (room == rmIntro1) {
+		room_goto_next();
 	}
-	alarm[2] = 30;
+	alarm[2] = 30 + (210 * (room == rmIntro1));
 	state += 1;
 } else {
 	instance_destroy();

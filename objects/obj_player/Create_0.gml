@@ -5,7 +5,7 @@ movementSpeed = 3;
 
 jumpStrength = -8;
 
-maxJumps = 2;
+maxJumps = 1;
 jumps = maxJumps;
 isGrounded = true;
 

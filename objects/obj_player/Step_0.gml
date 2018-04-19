@@ -11,6 +11,7 @@ aiming = pressingAim() && canAim;
 	yAimAxis = yAxis;
 
 if (instance_exists(obj_game_manager)) {
+	maxJumps = obj_game_manager.maxJumps;
 	aiming = aiming && obj_game_manager.canProject;	
 }
 

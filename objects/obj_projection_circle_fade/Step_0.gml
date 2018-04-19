@@ -5,3 +5,5 @@ radiusDraw += (0 - radiusDraw) / 12.5;
 if (radiusDraw <= 0.5) {
 	instance_destroy();
 }
+
+show_debug_message(radiusDraw);

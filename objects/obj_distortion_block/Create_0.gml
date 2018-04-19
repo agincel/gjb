@@ -5,7 +5,7 @@ playerDeath = true;
 
 alarm[0] = 2;
 alarm[1] = 3;
-alarm[2] = 30
+alarm[2] = 30 + (210 * (room == rmIntro1));
 
 with (obj_camera) {
 	aberration = 2;

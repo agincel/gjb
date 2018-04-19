@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-canProject = true; //todo
+canProject = false; //todo
 lastCheckpoint = noone;
+
+maxJumps = 1;
 
 startX = 0;
 startY = 0;
