@@ -14,4 +14,6 @@ last_randY = y;
 
 height_step = 0;
 
+action_script = -1;
+
 alarm[0] = 15;

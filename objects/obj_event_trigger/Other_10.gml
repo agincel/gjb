@@ -8,6 +8,8 @@ if (ID == 0) {
 		canProject = true;
 	}
 } else if (ID == 1) {
-	//trigger Kai credit, for now just debug log
-	show_debug_message("Music by Kai");
+	with (instance_create_layer(0, 0, layer_get_id("CameraLayer"), obj_credit)) {
+		bigText = "kai theobald-coates";
+		smallText = "music and sound by";
+	}
 }

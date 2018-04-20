@@ -13,6 +13,16 @@ if (!touched) {
 		case 0:
 			obj_game_manager.maxJumps++;
 			break;
+			
+		case 1:
+			obj_game_manager.canProject = true;
+			break;
+			
+		case 2:
+			if (action_script != -1) {
+				script_execute(action_script);
+			}
+			break;
 	
 	}
 }

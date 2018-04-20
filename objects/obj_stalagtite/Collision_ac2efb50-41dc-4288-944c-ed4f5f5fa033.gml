@@ -6,6 +6,7 @@ if (!done) {
 }
 
 move_contact_solid(270, 10);
+yVelocity = 0;
 
 done = true;
 canJump = true;

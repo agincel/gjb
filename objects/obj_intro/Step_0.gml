@@ -2,19 +2,11 @@
 // You can write your code in this editor
 
 if (!instance_exists(obj_distortion_block)) {
-	switch (current_message) {
-		case 3:
-			audio_sound_gain(snd_static, 0.05, 1000);
-			break;
-		case 4:
-			audio_sound_gain(snd_static, 0.07, 1000);
-			break;
-		case 6:
-			audio_sound_gain(snd_static, 0.09, 1000);
-			break;
-		default:
-			audio_sound_gain(snd_static, 0, 1000);
-			break;
+	if (current_message == 3 || current_message == 4 || current_message == 6) {
+		if (glitchSound == -1 || !audio_is_playing(glitchSound)) {
+			glitchSound = choose(snd_glitch1, snd_glitch2, snd_glitch3, snd_glitch4, snd_glitch5, snd_glitch6, snd_glitch7, snd_glitch8);
+			audio_play_sound(glitchSound, 1, false);
+		}
 	}
 	if (pointer == string_length(message[current_message])) {
 		if (pressJump()) {

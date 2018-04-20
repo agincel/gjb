@@ -11,6 +11,7 @@ my_camera = camera_create_view(0, 0, 480, 270, 0, noone, 0, 0, 0, 0);
 view_set_camera(0, my_camera);
 
 camera_set_view_pos(my_camera, 0, 0);
+inMenu = false;
 
 aberration = 0;
 chromatic_shake = 0;

@@ -31,8 +31,8 @@ pointer = 0;
 
 distortionFrame = true;
 
-audio_play_sound(snd_static, 1, true);
-audio_sound_gain(snd_static, 0, 0);
+glitchSound = -1;
+audio_play_sound(snd_ambience, 1, true);
 
 alarm[0] = 120;
 alarm[1] = 30;
