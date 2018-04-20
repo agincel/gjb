@@ -19,6 +19,25 @@ if (stoppedAiming) {
 	stoppedAiming = false;
 }
 
+if (startedAimingPossessed) {
+	aimingPossessed = true;
+	startedAimingPossessed = false;
+	soulStartPossessed = audio_play_sound(snd_soul_aim_start_possessed, 0, false);
+}
+
+if (aimingPossessed) {
+	if (!audio_is_playing(soulStartPossessed) && !audio_is_playing(soulLoopPossessed)) {
+		soulLoopPossessed = audio_play_sound(snd_soul_aim_loop_possessed, 0, true);	
+	}
+}
+
+if (stoppedAimingPossessed) {
+	audio_stop_sound(soulStartPossessed);
+	audio_stop_sound(soulLoopPossessed);
+	aimingPossessed = false;
+	stoppedAimingPossessed = false;
+}
+
 if (impactWall) {
 	impactWall = false;
 	audio_play_sound(snd_soul_impact3, 0, false);

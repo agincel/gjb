@@ -20,6 +20,16 @@ if (isPossessed) {
 	var yy = cY;
 	var dir = point_direction(cX, cY, cX + xAimAxis, cY + yAimAxis);
 	
+	if (aiming && !wasAiming) {
+		with (obj_audio_manager) {
+			startedAimingPossessed = true;	
+		}
+	} else if (wasAiming && !aiming) {
+		with (obj_audio_manager) {
+			stoppedAimingPossessed = true;	
+		}
+	}
+	
 	if (!aiming && wasAiming && radiusDraw > range * percentNeeded) {
 		
 		var i = 0;
@@ -39,6 +49,9 @@ if (isPossessed) {
 			with (obj_camera) {
 				aberration = 1;
 				chromatic_shake = 2;
+			}
+			with (obj_audio_manager) {
+				impactPossessible = true;	
 			}
 			isPossessed = false;
 			
@@ -68,6 +81,9 @@ if (isPossessed) {
 			with (obj_camera) {
 				aberration = 1;
 				chromatic_shake = 2;
+			}
+			with (obj_audio_manager) {
+				impactWall = true;	
 			}
 			
 			var p = instance_create_depth(x, y, 0, obj_player);
