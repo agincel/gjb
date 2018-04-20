@@ -18,7 +18,7 @@ if (!instance_exists(obj_distortion_block)) {
 				with (instance_create_depth(x, y, -200, obj_distortion_block)) {
 					playerDeath = false;
 				}
-				audio_sound_gain(snd_static, 0.65, 1500);
+				//audio_sound_gain(snd_static, 0.65, 1500);
 			}
 		}
 	} else {

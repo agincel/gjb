@@ -20,3 +20,5 @@ death = false;
 
 bgm = audio_play_sound(snd_bgm_afterlife, 0, true);
 audio_sound_set_track_position(bgm, 0);
+
+alarm[0] = 60 * irandom_range(6, 14);

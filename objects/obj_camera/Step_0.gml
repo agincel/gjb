@@ -31,3 +31,16 @@ if (aberration > 0) {
 if (chromatic_shake > 0) {
 	chromatic_shake -= 0.04;
 }
+
+if (!surface_exists(minimap_surface)) {
+	minimap_surface = surface_create(384, 216);
+}
+
+if (instance_exists(obj_player)) {
+	var player_quadrant_i = floor(obj_player.x / 480);
+	var player_quadrant_j = floor(obj_player.y / 256);
+
+	if (!visited[player_quadrant_i, player_quadrant_j]) {
+		visited[player_quadrant_i, player_quadrant_j] = true;
+	}
+}

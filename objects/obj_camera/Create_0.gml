@@ -15,3 +15,13 @@ inMenu = false;
 
 aberration = 0;
 chromatic_shake = 0;
+
+minimap_surface = -1;
+
+for (var i = 0; i < room_width / 480; i++) {
+	for (var j = 0; j < room_height / 256; j++) {
+		visited[i, j] = false;
+	}
+}
+
+level_name = "the afterlife";

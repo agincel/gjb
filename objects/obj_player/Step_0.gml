@@ -149,6 +149,7 @@ if (!aiming && !wasAiming) {
 			impactWall = true;	
 		}
 		move_contact_solid(dir, range);
+		instance_create_layer(xx, yy, layer_get_id("UpperEffect"), obj_landing_flash);
 		yVelocity = jumpStrength;
 		jumps = 1;
 		

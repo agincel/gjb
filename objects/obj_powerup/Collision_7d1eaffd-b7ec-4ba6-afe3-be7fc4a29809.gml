@@ -12,10 +12,16 @@ if (!touched) {
 	
 		case 0:
 			obj_game_manager.maxJumps++;
+			with (instance_create_layer(0, 0, layer_get_id("UpperEffect"), obj_helpful_tip)) {
+				help_str = "Double jump acquired";
+			}
 			break;
 			
 		case 1:
 			obj_game_manager.canProject = true;
+			with (instance_create_layer(0, 0, layer_get_id("UpperEffect"), obj_helpful_tip)) {
+				help_str = "Hold [RT] to project your soul";
+			}
 			break;
 			
 		case 2:
